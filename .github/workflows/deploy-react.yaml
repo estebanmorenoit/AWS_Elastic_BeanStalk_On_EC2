@@ -18,8 +18,8 @@ jobs:
           with:
             aws_access_key: ${{ secrets.AWS_ADMIN_ACCESS_KEY_ID }}
             aws_secret_key: ${{ secrets.AWS_ADMIN_SECRET_ACCESS_KEY_ID }}
-            application_name: docker-react
-            environment_name: Dockerreact-env
+            application_name: react-app
+            environment_name: React-app-env-2
             version_label: ${{ github.sha }}
             region: eu-west-2
             deployment_package: deploy.zip
