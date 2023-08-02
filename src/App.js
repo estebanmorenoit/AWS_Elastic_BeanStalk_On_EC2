@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const customText = "Welcome to My Awesome React App!"; // Customized text added
+  const customText = "Welcome to My Awesome React App! #90daysofdevops chalenge Day 87 - Esteban Moreno"; // Customized text added
   const learnMoreLink = "https://reactjs.org"; // Customized learn more link
 
   return (
